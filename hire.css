@@ -1,0 +1,34 @@
+body{
+  height: 190vh;
+  background: linear-gradient(to bottom, purple,#1f1e58);
+  font-family: sans-serif;
+  width: 100%;
+}
+#nav{
+  display: flex;
+  gap: 80%;
+  font-size: 4vh;
+  color: #fff;
+}
+#nexlo-img{
+  height: 80px;
+  width: 80px;
+}
+
+#head h1{color: orange;
+  font-size: 16vh;
+  margin-top: 0px;
+  text-align: center;
+  font-style: italic;
+}
+#skill-head{
+  color: #fff;
+  margin-top: 75px;
+  font-size: 5vh;
+  text-align: center;
+}
+#skills{
+  color: #fff;
+  margin: 15px;
+  font-size: 2vh;
+}
