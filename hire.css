@@ -1,34 +1,86 @@
-body{
-  height: 190vh;
-  background: linear-gradient(to bottom, purple,#1f1e58);
+body {
+  background: linear-gradient(to bottom, purple, #1f1e58);
   font-family: sans-serif;
-  width: 100%;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
 }
-#nav{
+
+#nav {
   display: flex;
-  gap: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   font-size: 4vh;
+}
+
+#nav a {
+  text-decoration: none;
   color: #fff;
 }
-#nexlo-img{
+
+#nexlo-img {
   height: 80px;
   width: 80px;
 }
 
-#head h1{color: orange;
+#head {
   font-size: 16vh;
-  margin-top: 0px;
   text-align: center;
   font-style: italic;
+  color: orange;
+  margin-top: 20px;
+  transition: transform 0.5s ease;
 }
-#skill-head{
-  color: #fff;
-  margin-top: 75px;
+
+#head:hover {
+  transform: scale(1.1);
+}
+
+#skill-head {
   font-size: 5vh;
   text-align: center;
+  margin-top: 30px;
+  margin-left: 5%;
 }
-#skills{
-  color: #fff;
-  margin: 15px;
-  font-size: 2vh;
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.inner-skills h2 {
+  margin: 10px 0;
+}
+
+#skills img {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+#skills img:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 4vh;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #aaf;
+  font-size: 2.5vh;
 }
